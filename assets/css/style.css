@@ -15,7 +15,6 @@
     position: relative;
     font-family: 'Playfair Display', serif;
     font-style: normal;
-    /* font-weight: bold; */
     font-size: 80px;
     line-height: 31.5px;
     letter-spacing: 0.04em;
@@ -35,9 +34,7 @@
   color: #000000;
 }
 
-.menu{  
-  /* position: absolute; */
- 
+.menu{   
   margin: 37.5px;
   font-family: 'Noto Sans JP', sans-serif;
   font-style: normal;
@@ -54,11 +51,11 @@
   bottom: -15px;
   content: "";
   height: 1px;
-  left: 50%;
   position: absolute;
   background: #000000;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.4s ease 0s, left 0.4s ease 0s;
   width: 0;
+  left: 50%;
 }
 .menu:hover:after { 
   width: 100%; 
@@ -157,12 +154,6 @@
   background-image: url(../img/pic1.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-#sp1:hover {
-  filter: brightness(80%);
-  filter: invert(70%);
-  filter: grayscale(100%);
-  background-image: url(../img/pic2.png);
 }
 
 #sq2{

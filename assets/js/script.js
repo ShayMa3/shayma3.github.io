@@ -1,12 +1,3 @@
-// import jump from 'jump.js'
-// type = "module";
-// import jump from './node_modules/jump.js/dist/jump.module.js';
-
-// var about_button = document.getElementById("aboutbtn");
-// about_button.addEventListener('click', () =>{
-//   jump('.target2')
-// })
-
 new TypeIt("#simpleUsage", {
     // strings: "a personal webpage ",
     speed: 50,
